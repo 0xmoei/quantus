@@ -15,17 +15,6 @@ This is a community walkthrough by [Moei](https://x.com/0xMoei) based on officia
 
 ---
 
-## Read this first
-
-* Use `--chain mainnet`.
-* You need node **v1.0.1 or newer**. Older binaries do not include the mainnet chain spec.
-* Node and miner must be a **matching pair**. They talk over QUIC with ALPN `quantus-miner/2`. Mixing `chain/releases/latest` with an unrelated `quantus-miner` latest tag can fail with `no application protocol`.
-* Mining rewards only accumulate on a **wormhole address** derived from your `inner_hash`.
-* Do **not** use `--force-authoring` to join mainnet. That flag is only for bootstrapping a brand-new network.
-* Chain data lives in `.../chains/mainnet/`.
-* **Linux ARM64:** there is no native `quantus-miner` release. Mine from macOS or Linux x86_64.
-* Official installer **does not support new Docker setups**. Use native binaries.
-
 ### Versions used in this guide (check before you install)
 
 | Component | Version | Source |
