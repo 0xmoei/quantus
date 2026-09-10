@@ -548,13 +548,13 @@ Minimize miner screen: `Ctrl` + `A` + `D`
 
 # Method 3: Quanpool (no local node)
 
-**This is the comfortable path.** You do **not** run `quantus-node`. The pool runs the node. You only run `quanpool-miner` and get paid to a `qz...` address.
+**This is the comfortable path.** You do **not** run `quantus-node`. The pool runs the node. You only run `quanpool-miner` with your GPU and get paid to a `qz...` address.
 
-**Quick tip:** no GPU at home? Rent one on [Vast](https://cloud.vast.ai/?ref_id=228875), then join Quanpool on **PPLNS** (not Solo). Wallet → Start mining → `screen` → lookup.
+**Quick tip:** Rent one on [Vast](https://cloud.vast.ai/?ref_id=228875), then join Quanpool on **PPLNS** (not Solo). Wallet → Start mining → `screen` → lookup.
 
 Community pool: https://quanpool.com/
 
-This is **not** official Quantus. Host, TLS pin, and fee can change. Copy the live command from **Start mining** after you fill your address.
+This is **not** official Quantus. Copy the live command from **Start mining** after you fill your address.
 
 **What this actually runs**
 
@@ -607,7 +607,7 @@ Address only. Never paste your 24-word phrase on the pool site.
 ### 2. Open Start mining
 
 1. Go to https://quanpool.com/
-2. Open **Start mining**.
+2. Open **Start mining** tab in the bottom.
 3. Fill **payout address** + **worker name** (optional, one per machine, `a-z 0-9 . - _`, max 32 chars).
 4. Mode: **Pool (PPLNS)** unless you know you want Solo.
 5. Copy the generated command.
